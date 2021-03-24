@@ -1,16 +1,227 @@
-.theme-icon0{
-    padding-top: 5px;
-    padding-right: 0px;
-    padding-bottom: 5px;
-    padding-left: 0px;
+/*------------------------------------carousel on welcome page index---------------*/
+#myCarousel .carousel-item .mask {
     position: absolute;
-    
+    top: 0;
+	left:0;
+	height:100%;
+    width: 100%;
+    background-attachment: fixed;
 }
-.malaika-logo{
-    padding-left: 50px;
-    margin-bottom: 5px;
-    margin-top: 5px;   
+#myCarousel h4{
+	font-size:50px;
+	margin-bottom:15px;
+	color:#FFF;
+	line-height:100%;
+	letter-spacing:0.5px;
+	font-weight:600;
 }
+#myCarousel p{
+	font-size:18px;
+	margin-bottom:15px;
+	color:#d5d5d5;
+}
+#myCarousel .carousel-item a{
+    background:#F47735; 
+    font-size:14px; 
+    color:#FFF; 
+    padding:13px 32px; 
+    display:inline-block;
+}
+#myCarousel .carousel-item a:hover{
+    background:#394fa2; 
+    text-decoration:none;  }
+
+#myCarousel .carousel-item h4{
+    -webkit-animation-name:fadeInLeft;
+     animation-name:fadeInLeft;
+} 
+#myCarousel .carousel-item p{
+    -webkit-animation-name:slideInRight; 
+    animation-name:slideInRight;
+} 
+#myCarousel .carousel-item a{
+    -webkit-animation-name:fadeInUp; 
+    animation-name:fadeInUp;
+}
+#myCarousel .carousel-item .mask img{
+    -webkit-animation-name:slideInRight;
+     animation-name:slideInRight; 
+     display:block; 
+     height:auto; 
+     max-width:100%;
+}
+#myCarousel h4, #myCarousel p, #myCarousel a, #myCarousel .carousel-item .mask img{
+    -webkit-animation-duration: 1s;
+    animation-duration: 1.2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+#myCarousel .container {
+    max-width: 1430px;  
+}
+#myCarousel .carousel-item{
+    height:100%; min-height:550px;
+ }
+#myCarousel{
+    position:relative; 
+    z-index:1; 
+    background:url(https://i.imgur.com/6axE29k.jpg) center center no-repeat;
+     background-size:cover; }
+
+.carousel-control-next, .carousel-control-prev{
+    height:40px;
+     width:40px; 
+     padding:12px;
+     top:50%;
+     bottom:auto; 
+     transform:translateY(-50%);
+     background-color: #f47735;
+}
+
+
+.carousel-item {
+    position: relative;
+    display: none;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    transition: -webkit-transform .6s ease;
+    transition: transform .6s ease;
+    transition: transform .6s ease,-webkit-transform .6s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+}
+.carousel-fade .carousel-item {
+	opacity: 0;
+	-webkit-transition-duration: .6s;
+	transition-duration: .6s;
+	-webkit-transition-property: opacity;
+	transition-property: opacity
+}
+.carousel-fade .carousel-item-next.carousel-item-left, .carousel-fade .carousel-item-prev.carousel-item-right, .carousel-fade .carousel-item.active {
+	opacity: 1
+}
+.carousel-fade .carousel-item-left.active, .carousel-fade .carousel-item-right.active {
+	opacity: 0
+}
+.carousel-fade .carousel-item-left.active, .carousel-fade .carousel-item-next, .carousel-fade .carousel-item-prev, .carousel-fade .carousel-item-prev.active, .carousel-fade .carousel-item.active {
+	-webkit-transform: translateX(0);
+	-ms-transform: translateX(0);
+	transform: translateX(0)
+}
+@supports (transform-style:preserve-3d) {
+	.carousel-fade .carousel-item-left.active, .carousel-fade .carousel-item-next, .carousel-fade .carousel-item-prev, .carousel-fade .carousel-item-prev.active, .carousel-fade .carousel-item.active {
+	-webkit-transform:translate3d(0, 0, 0);
+	transform:translate3d(0, 0, 0)
+	}
+}
+.carousel-fade .carousel-item-left.active, .carousel-fade .carousel-item-next, .carousel-fade .carousel-item-prev, .carousel-fade .carousel-item-prev.active, .carousel-fade .carousel-item.active {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+
+ 
+@-webkit-keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+@-webkit-keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInRight {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+}
+/*--------------welcome malaika nav----------------*/
 .malaika-logo1{
     padding-left: 0px;
     margin-bottom: 5px;
@@ -34,20 +245,32 @@
     text-align: left;
 }
 /**------------------------------navigation----------------*/
+.theme-icon0{
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    position: absolute;
+    
+}
+.malaika-logo{
+    padding-left: 70px;
+    padding-bottom: 0px;
+    padding-top: 0px;   
+}
+
 .nav-item{
-    margin-left: 20px;
+    margin-left: 50px;
     
 }
 .nav-link{
     color: #333436;
 }
-.social-icons{
-    margin-left: 380px;
-}
+
 /*--------------------welcome malaika-------------*/
 .welcome-content{
     padding-top: 50px;
-    padding-bottom: 50px;   
+    padding-bottom: 0px;   
 }
 .welcome-content1{
     padding-top: 50px;
@@ -164,7 +387,7 @@ h6 a{
     
     
 }
-.custom-heading a,.custom-heading1 a,.custom-heading2 a,.custom-heading3 a,.title a,.custom-heading00 a,.malaika-logo a,.malaika-logo1 a,.children-link ul li a,.entry-title a,.tab-item a,.data h3 a{
+.custom-heading a,.custom-heading1 a,.custom-heading2 a,.custom-heading3 a,.title a,.custom-heading00 a,.malaika-logo a,.malaika-logo1 a,.children-link ul li a,.entry-title a,.tab-item a,.data h3 a,.logo-copyright a{
     border: none;
     text-decoration: inherit;
     color: inherit;
@@ -287,6 +510,11 @@ h6 a{
     text-transform: uppercase;
     letter-spacing: inherit;
     text-align: left;
+}
+.logo-copyright{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 50px;
 }
 .anim{
     transform: translateY(-50%) translateX(-50%);
@@ -455,3 +683,107 @@ card-footer,
     margin-top: 20px;
     margin-bottom: 50px;
 }
+
+/*----------------primaryschool-----------*/
+.content-element{
+    margin-bottom: 35px;
+}
+blockquote{
+    border-left-color: #e6be1e !important;
+}
+blockquote{
+    font-size: 14px;
+    line-height: 24px;
+    margin: 30px 0;
+    padding: 21px 32px;
+    border-left: 6px solid #e6be1e;
+    color: #020202;
+    background-color: #f2f2f2;
+    font-weight: normal;
+}
+/*-----------------------------academics-----------------*/
+.individual{
+    padding-left: 75px;
+    margin-top: -50px;
+    margin-bottom: 60px;
+    
+}
+.welcome-content00{
+    margin-top: 50px;
+    margin-bottom: -80px;
+
+}
+.welcome-content000{
+    margin-top: 50px;
+    margin-bottom: -80px;
+}
+.welcome-content0000{
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.theme-icon00{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    
+}
+.welcome-content001{
+    margin-top: -30px;
+    margin-bottom: 0px;
+
+}
+.welcome-content0001{
+    margin-top: -30px;
+    margin-bottom: 0px;
+}
+.welcome-content00001{
+    margin-top: -30px;
+    margin-bottom: 0px;
+}
+/*-------------------------------------transport------------------*/
+{box-sizing: border-box}
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 300px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 70%;
+  border-left: none;
+  height: 300px;
+}
+
