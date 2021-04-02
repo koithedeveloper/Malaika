@@ -65,7 +65,7 @@
 #myCarousel{
     position:relative; 
     z-index:1; 
-    background:url(https://i.imgur.com/6axE29k.jpg) center center no-repeat;
+    background:url(../images/slajder-14-768x510.jpg) center center no-repeat;
      background-size:cover; }
 
 .carousel-control-next, .carousel-control-prev{
@@ -420,7 +420,7 @@ h6 a{
     
 }
 .nav-tab0{
-    margin-left: 50px;
+    margin-left: 28px;
     
 }
 .post-image{
