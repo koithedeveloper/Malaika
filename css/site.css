@@ -1,3 +1,24 @@
+/*---------------body----------------------*/
+@media only screen and (max-width: 768px) {
+    .people {
+      display: none;
+    }
+  }
+  
+
+@media only screen and (max-width: 48px) {
+  /* For mobile phones: */
+  .nav-tabs-wrapper0{
+    padding-left: 80px;
+  }
+}
+@media only screen and (max-width:768px) {
+    .card1{
+        margin-left: 70px;
+        margin-top: 30px;
+        
+    }
+}
 /*------------------------------------carousel on welcome page index---------------*/
 #myCarousel .carousel-item .mask {
     position: absolute;
@@ -417,12 +438,11 @@ h6 a{
     background-color: #37383a;
     margin-right: -15px;
     margin-left: -15px;
+    padding-left: 80px;
+    
     
 }
-.nav-tab0{
-    margin-left: 28px;
-    
-}
+
 .post-image{
     max-width: 100%;
 }
