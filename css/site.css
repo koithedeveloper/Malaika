@@ -23,11 +23,12 @@ body{
 #myCarousel h4{
 	font-size:50px;
 	margin-bottom:15px;
-	color:#394fa2;
+	color: #2d1d54;
 	line-height:100%;
 	letter-spacing:0.5px;
-	font-weight:600;
+	font-weight:800;
 }
+
 
 #myCarousel .carousel-item a{
     background:#F47735; 
@@ -615,7 +616,7 @@ h6 a{
 }
 .children-link ul li a{
     padding-left: 13px;
-    color: #152130;
+    color: #2d1d54;
     padding: 25px 25px 25px 20px;
     display: inline-block;
     width: 100%;
@@ -624,14 +625,7 @@ h6 a{
     transition: all 0.2s;
     font-size: 15px;
 }
-.custome-fucult{
-    margin-top: 0px;
-    margin-bottom: 20px;
-    line-height: 52px;
-    font-weight: normal;
-    color: #000000;
-    font-size: 42px;
-}
+
 .custome-fucult-text{
     margin-bottom: 10px !important;
 }
@@ -910,7 +904,7 @@ h1.page-title{
         font-style: normal;
         color: #ffffff;
         font-size: 25px;
-        margin-left: 0px;
+        margin-left: -40px;
       
       }
       
@@ -1018,16 +1012,16 @@ h1.page-title{
       font-size: 22px;
       font-weight: 800;
       line-height: 1.2em;
-      margin-top: 20px;
+      margin-top: 0px;
       margin-bottom: 30px;
   }
-  h2.library001{
+  h1.library001{
     color: #2d1d54;
     font-size: 30px;
     font-weight: 800;
     line-height: 2.2em;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
   .element-populeted{
       border-style: solid;
