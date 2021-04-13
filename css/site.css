@@ -276,7 +276,7 @@ body{
 }
 @media (max-width:768px) {
     .welcome-content{
-        margin-right: 10px;
+        margin-left: -15px;
 
     }
     
