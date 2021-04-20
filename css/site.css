@@ -6,24 +6,18 @@
 }
 
 
-
 body{
     font-family: sans-serif;
 }
 
 /*------------------------------------carousel on welcome page index---------------*/
 #myCarousel .carousel-item .mask {
-    position: absolute;
-    top: 0;
-	left:0;
-	height:100%;
     width: 100%;
     background-attachment: fixed;
 }
 #myCarousel h4{
-	font-size:50px;
-	margin-bottom:15px;
-	color: #2d1d54;
+	font-size:40px;
+	color:#ffffff;
 	line-height:100%;
 	letter-spacing:0.5px;
 	font-weight:800;
@@ -47,9 +41,7 @@ body{
 #myCarousel .carousel-item .mask img{
     -webkit-animation-name:slideInRight;
      animation-name:slideInRight; 
-     display:block; 
-     height:auto; 
-     max-width:100%;
+     
 }
 #myCarousel h4,#myCarousel .carousel-item .mask img{
     -webkit-animation-duration: 1s;
@@ -62,13 +54,15 @@ body{
 }
 #myCarousel .carousel-item{
     height:100%;
-    min-height:565px;
+    min-height:450px;
  }
 #myCarousel{
     position:relative; 
     z-index:1; 
-    background:url(../images/1.jpg) center center no-repeat;
-     background-size:cover; }
+    background:url(../images/home.JPG) center center no-repeat;
+    background-size:cover;
+    height: 450px;
+}
 
 .carousel-control-next, .carousel-control-prev{
     height:40px;
@@ -82,7 +76,6 @@ body{
 
 
 .carousel-item {
-    position: relative;
     display: none;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -274,22 +267,152 @@ body{
     padding-top: 50px;
     padding-bottom: 0px;   
 }
-@media (max-width:480px) {
+@media only screen and (max-width:600px) {
     .welcome-content{
-        margin-left: -40px;
+        margin-left: -50px;
+        padding-top: 40px;
+        margin-bottom: 40px !important;
+    }    
+}
+@media only screen and (min-width:600px) {
+    .welcome-content{
+        margin-left: 0px;
+        padding-top: 40px;
+        margin-bottom: 40px !important;
+    }   
+}
+
+@media only screen and (max-width:600px) {
+    .welcome-content1{
+        margin-left: -50px;
+        padding-top: 40px;
+        margin-bottom: 40px !important;
+    }
+    
+}
+@media only screen and (min-width:600px) {
+    .welcome-content1{
+        margin-left: 0px;
+        padding-top: 40px;
+        margin-bottom: 40px !important;
+    }
+    
+}
+@media only screen and (min-width:768px) {
+    .welcome-content{
+        margin-left: -60px;
+        padding-top: 40px;
+        margin-bottom: 40px !important;
 
     }
     
 }
-.welcome-content1{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-right: 50px;   
-}
-@media (max-width:480px) {
-    .welcome-content1{
-        margin-left: -40px;
+@media (min-width:768px) {
+    .malaika-heading{
+        font-size:15px !important;
+        margin-left: -20px !important;
+        line-height: 23px !important;
 
+    }
+    
+}
+@media (min-width:768px) {
+    .malaika-text{
+        margin-left: 5px !important;
+        margin-top: 20px !important;
+
+    }
+    
+}
+@media (min-width:768px) {
+    .welcome-content{
+        margin-left: -50px;
+        padding-top: 40px;
+        margin-bottom: 40px !important;
+    }   
+}
+
+@media (min-width:768px) {
+    .welcome-content1{
+        margin-left: -50px;
+        padding-top: 40px;
+        margin-bottom: 40px !important;
+    }   
+}
+@media only screen and (min-width:992px) {
+    .welcome-content1{
+        margin-left: -50px !important;
+        padding-top: 40px !important;
+        margin-bottom: 40px !important;
+    }   
+}
+@media only screen and (min-width:992px) {
+    .welcome-content{
+        margin-left: -50px !important;
+        padding-top: 40px !important;
+        margin-bottom: 40px !important;
+    }   
+}
+@media only screen and (min-width:1200px) {
+    .welcome-content{
+        margin-left: 0px !important;
+        padding-top: 40px !important;
+        margin-bottom: 40px !important;
+    }   
+}
+@media only screen and (min-width:1200px) {
+    .welcome-content1{
+        margin-left: 0px !important;
+        padding-top: 40px !important;
+        margin-bottom: 40px !important;
+        
+    }   
+}
+@media (min-width:768px) {
+    .theme-icon{
+        padding-top: 5px !important;
+        padding-right: 5px !important;
+        padding-bottom: 5px !important;
+        padding-left: 5px !important;
+        margin-left: 50px !important;
+        position: absolute !important;
+        background-color: #ffffff !important;
+    }
+    
+}
+@media (min-width:768px) {
+    .theme-icon1{
+        padding-top: 6px !important;
+        padding-right: 6px !important;
+        padding-bottom: 6px !important;
+        padding-left: 6px !important;
+        margin-left: 50px !important;
+        position: absolute !important;
+        background-color: #6c98e1 !important;
+    }
+    
+}
+@media (min-width:768px) {
+    .theme-icon2{
+        padding-top: 6px !important;
+        padding-right: 6px !important;
+        padding-bottom: 6px !important;
+        padding-left: 6px !important;
+        margin-left: 50px !important;
+        position: absolute !important;
+        background-color:  #d93ad0 !important;
+    }
+    
+}
+@media (min-width:768px) {
+    .theme-icon3{
+        padding-top: 6px !important;
+        padding-right: 6px !important;
+        padding-bottom: 6px !important;
+        padding-left: 6px !important;
+        margin-left: 50px !important;
+        position: absolute !important;
+        background-color:  #84c54e !important;
     }
     
 }
@@ -349,29 +472,120 @@ body{
     margin-top: 20px;
     margin-left: 50px;
 }
-@media (max-width:480px) {
-    .learing-facilities001{
-        margin-left: 10px;
-    }
-    
-}
-@media  (min-width:480px){
-    .yael{
-        margin-bottom: 20px;
-        margin-right: 20px;
-        margin-left: 20px;
+@media only screen and (max-width:600px) {
+    .learing-facilities{
         margin-top: 20px;
+        margin-left: 0px !important;
+        
     }
-    
+       
 }
-@media  (max-width:480px){
+@media only screen and (min-width:600px) {
+    .learing-facilities{
+        margin-top: 20px;
+        margin-left: 50px !important;
+        
+    }
+       
+}
+@media only screen and (max-width:600px) {
     .yael{
-        margin-bottom: 0px;
-        margin-right: 30px;
+        flex-flow: column;
         margin-left: 30px;
-        margin-top: 20px;
+        margin-right: 30px;  
+        margin-top: 30px;
+        margin-bottom: 0px;
+
+    }
+    .card{
+        margin-bottom: 20px !important;
+    }
+}
+@media only screen and (min-width:600px) {
+    .yael{
+        flex-flow: row;
+        margin-left: 0px;
+        margin-right: 0px;  
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+
+}
+@media only screen and (min-width:600px) {
+    .title{
+        font-size: 15px !important;
+        line-height: 10px !important;
+    }
+    .card-text{
+        font-size: 13px !important;
+    }
+
+}
+@media only screen and (min-width:768px) {
+    .learing-facilities{
+        margin-top: 30px;
+        margin-left: 5px !important;   
+    }
+    .custom-heading0{
+        font-size: 10px !important;  
+    }
+    .custom-heading00{
+        font-size: 15px !important;
+    }
+}
+@media only screen and (min-width:768px) {
+    .yael{
+        flex-flow: row;
+        margin-left: 0px;
+        margin-right: 0px;  
+        margin-top: 30px;
+        margin-bottom: 0px; 
     }
     
+}
+@media only screen and (min-width:992px) {
+    .custom-heading0{
+        font-size: 13px !important; 
+    }
+    .custom-heading00{
+        font-size: 18px !important; 
+    }
+    .title{
+        font-size: 17px !important;
+        line-height: 27px !important;
+    }
+    .card-text{
+        font-size: 15px !important;
+    }
+    
+}
+@media only screen and (min-width:1200px) {
+    .learing-facilities{
+        margin-top: 20px;
+        margin-left: 50px !important;   
+    }
+    .custom-heading0{
+        font-size: 15px !important;  
+    }
+    .custom-heading00{
+        font-size: 18px !important;
+        line-height: 29px !important;
+    }
+}
+
+@media  only screen and (min-width:1200px){
+    .yael{
+        margin-bottom: 20px !important;
+        margin-right: 20px !important;
+        margin-left: 20px !important;
+        margin-top: 20px !important;
+    }
+    .title{
+        font-size: 17px !important;  
+    }
+    .card-text{
+        font-size: 15px !important;  
+    }
 }
 
 .custom-heading{
@@ -398,7 +612,9 @@ body{
     padding-bottom: 12px;
     color: inherit;
     background-color: #84c54e;
-}.custom-heading3{
+
+}
+.custom-heading3{
     margin-top: 0px !important;
     margin-bottom: 10px;
     padding-top: 12px;
@@ -435,16 +651,49 @@ h6 a{
     
     margin-left: 5px;
 }
-@media  (max-width:480px){
+
+@media only screen and (max-width:600px) {
     .jael{
-        margin-bottom: 0px;
-        margin-right: -10px;
-        margin-left: -40px;
+        flex-flow: column;
+        margin-left: -50px;
+        margin-right: -20px;  
         margin-top: 0px;
+        margin-bottom: 0px;
+
     }
     
 }
+@media only screen and (min-width:600px) {
+    .jael{
+        flex-flow: row;
+        margin-left: -50px;
+        margin-right: -20px;  
+        margin-top: 0px;
+        margin-bottom: 0px;
 
+    }
+    .date{
+        font-size: 10px !important;
+        padding-left: 15px !important;
+    }
+    
+}
+@media only screen and (min-width:768px) {
+    .jael{
+        flex-flow: row;
+        margin-left: -50px;
+        margin-right: -20px;  
+        margin-top: 0px;
+        margin-bottom: 0px;
+
+    }
+    .date{
+        font-size: 14px !important;
+        padding-left: 20px !important;
+    }
+    
+    
+}
 
 .tab-item2{
     
@@ -461,11 +710,15 @@ h6 a{
     background-color: #37383a;
     margin-right: -15px;
     margin-left: -15px;
-    padding-left: 40px;
+    padding-left: 80px;  
+}
+@media only screen and (max-width:600px) {
     
+    .nav-tabs-wrapper0{
+        padding-left: 44px;  
+    }
     
 }
-
 .post-image{
     max-width: 100%;
 }
@@ -652,11 +905,29 @@ h6 a{
 .site-nav{
     margin-top: -90px;
 }
-@media (max-width:780px) {
+@media (min-width:768px) {
+    .site-nav{
+        margin-top: -60px;
+    }
+    
+    
+}
+
+@media (max-width:600px) {
+    .site-nav{
+        display: none;
+    }
+    
+}
+
+@media (max-width:480px) {
     .site-nav{
         display: none;
 
     }
+    
+}
+@media (max) {
     
 }
 
@@ -690,6 +961,21 @@ h6 a{
     transition: all 0.2s;
     font-size: 15px;
 }
+@media (min-width:768px) {
+    .children-link ul li a{
+        padding-left: 13px !important;
+        color: #2d1d54 !important;
+        padding: 20px 10px 20px 0px !important;
+        display: inline-block !important;
+        width: 100% !important;
+        position: relative !important;
+        line-height: 21px !important;
+        transition: all 0.2s !important;
+        font-size: 15px !important;
+    }
+    
+    
+}
 
 .custome-fucult-text{
     margin-bottom: 10px !important;
@@ -722,6 +1008,7 @@ h6 a{
 .principal{
     margin-left: -40px;
 }
+
 /*-----------------------------teacher list------------*/
 .table{
     margin-top: 20px;
@@ -866,10 +1153,7 @@ blockquote{
 
 
 /*-------------------------------welcome page contact---------------*/
-.header-image{
-    background-image: url(../images/about-us-044-768x510.jpg)center center no-repeat;
-    background-size:cover; 
-}
+
 .entry-content h2{
     font-size: 30px;
     text-align: center;
@@ -950,16 +1234,29 @@ input[type="submit"]{
 }
 /*------------------------------------------gallery--------------------------*/
 .custome-haead-title{
-    padding: 10rem 2rem;
+    padding: 15rem 0rem;
     
 }
+@media (max-width:480px){
+    .custome-haead-title{
+        padding: 6rem 0rem;
+        
+    }  
+}
+@media (max-width:768px){
+    .custome-haead-title{
+        padding: 10rem 0rem !important;
+        
+    }  
+}
+
 h1.page-title{
   line-height: 54px;
-  font-weight: 900;
+  font-weight: 500;
   font-style: normal;
   color: #ffffff;
-  font-size: 70px;
-  margin-left: 60px;
+  font-size: 60px;
+  margin-left: -15px;
 
 }
 @media (max-width:768px) {
@@ -968,8 +1265,8 @@ h1.page-title{
         font-weight: 300;
         font-style: normal;
         color: #ffffff;
-        font-size: 25px;
-        margin-left: -40px;
+        font-size: 20px;
+        margin-left: -25px;
       
       }
       
@@ -979,22 +1276,23 @@ h1.page-title{
     background-color: #ffd008;
     padding: 30px 35px;
     display: inline-block;
-    min-width: 35%;
+    
 }
 @media (max-width:768px) {
     .page-title{
         background-color: #ffd008;
         padding: 10px 15px;
         display: inline-block;
-        width: 20px;
+
     }
     
 }
 .welcome-page-title{
-    background-image: url(../images/2.jpg);
+    background-image: url(../images/2.JPG);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
   
   /* Position the image container (needed to position the left and right arrows) */
@@ -1085,8 +1383,8 @@ h1.page-title{
     font-size: 30px;
     font-weight: 800;
     line-height: 2.2em;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
   .element-populeted{
       border-style: solid;
