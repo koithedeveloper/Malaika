@@ -217,6 +217,13 @@ body{
   animation-name: slideInRight;
 }
 /*--------------welcome malaika nav----------------*/
+@media (min-width:600px) {
+    .navbar{
+        margin-right: 0px !important;
+
+    }
+    
+}
 .malaika-logo1{
     padding-left: 0px;
     margin-bottom: 5px;
@@ -258,9 +265,26 @@ body{
     margin-left: 50px;
     
 }
+@media (min-width:992px) {
+    .nav-item{
+        margin-left: 7px;
+        margin-right: 15px;
+        
+    }
+    
+}
+@media (min-width:1200px) {
+    .nav-item{
+        margin-left: 27px;
+        
+        
+    }
+    
+}
 .nav-link{
     color: #333436;
 }
+
 
 /*--------------------welcome malaika-------------*/
 .welcome-content{
@@ -576,7 +600,7 @@ body{
 @media  only screen and (min-width:1200px){
     .yael{
         margin-bottom: 20px !important;
-        margin-right: 20px !important;
+        margin-right: 30px !important;
         margin-left: 20px !important;
         margin-top: 20px !important;
     }
@@ -661,13 +685,16 @@ h6 a{
         margin-bottom: 0px;
 
     }
+    .learing-facilities0{
+        margin-left: 10px !important;
+    }
     
 }
 @media only screen and (min-width:600px) {
     .jael{
         flex-flow: row;
-        margin-left: -50px;
-        margin-right: -20px;  
+        margin-left: -65px;
+        margin-right: -50px;  
         margin-top: 0px;
         margin-bottom: 0px;
 
@@ -683,6 +710,22 @@ h6 a{
         flex-flow: row;
         margin-left: -50px;
         margin-right: -20px;  
+        margin-top: 0px;
+        margin-bottom: 0px;
+
+    }
+    .date{
+        font-size: 14px !important;
+        padding-left: 20px !important;
+    }
+    
+    
+}
+@media only screen and (min-width:1200px) {
+    .jael{
+        flex-flow: row;
+        margin-left: -20px;
+        margin-right: 0px;  
         margin-top: 0px;
         margin-bottom: 0px;
 
@@ -719,6 +762,48 @@ h6 a{
     }
     
 }
+@media only screen and (max-width:440px) {
+    
+    .nav-tabs-wrapper0{
+        
+        padding-left: 35px;  
+    }
+    
+}
+@media only screen and (max-width:465px) {
+    
+    .malaika-logo{
+        font-size: 15px !important;
+    }
+    
+}
+@media only screen and (max-width:447px) {
+    
+    .malaika-logo{
+        font-size: 15px !important;
+    }
+    
+}
+@media only screen and (max-width:420px) {
+    
+    .nav-tabs-wrapper0{
+        
+        padding-left: 20px;  
+    }
+    
+}
+@media only screen and (max-width:400px) {
+    
+    .nav-tabs-wrapper0{
+        
+        padding-left: 14px;  
+    }
+    .malaika-logo{
+        font-size: 14px !important;
+    }
+    
+}
+
 .post-image{
     max-width: 100%;
 }
@@ -770,7 +855,7 @@ h6 a{
     width: 100%;
     margin-bottom: 15px;
     background-color: #fff;
-    box-shadow: 0px opx 4px 1px #d9d9d;
+    box-shadow: 0px opx 4px 1px ;
 }
 .tarehe{
     display: table-cell;
@@ -855,6 +940,58 @@ h6 a{
     margin-top: 50px;
     margin-bottom: 50px;
 }
+@media only screen and (max-width: 600px) {
+    .content-box{
+        margin-left: 15px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .activities{
+        font-size: 20px !important;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .activities{
+        font-size: 20px !important;
+        
+    }
+    .content-box{
+        margin-left: 15px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .content-box{
+        margin-left: 15px !important;
+        margin-top: 50px !important;
+        margin-bottom: 50px !important;
+    }
+    .activities{
+        font-size: 27px !important;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .content-box{
+        margin-left: 15px !important;
+        margin-top: 50px !important;
+        margin-bottom: 50px !important;
+    }
+    .activities{
+        font-size: 40px !important;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .content-box{
+        margin-left: 15px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .activities{
+        font-size: 40px !important;
+    }
+}
 
 
 /*--------------------------------footer-------------------------*/
@@ -893,6 +1030,52 @@ h6 a{
 .phone1{
     margin-left: 25px;
 }
+@media (min-width:480px) {
+    .address,.phone,.logo-copyright,.address-{
+        
+        margin-left: 0px !important;
+        margin-top: 20px;
+    }
+    .logo-copyright{
+        font-size: 12px !important;
+    }
+    .address- h6,.address- p,.address h6,.address,.phone{
+        font-size: 22px !important;
+        line-height: 28px !important;
+        
+    }
+    .address,.phone{
+
+        margin-left: 30px !important;
+    }
+    .phone1{
+        margin-left: 11px;
+    }
+    
+}
+@media (max-width:600px) {
+    .address,.phone,.logo-copyright,.address-{
+        
+        margin-left: 0px !important;
+        margin-top: 20px;
+    }
+    .logo-copyright{
+        font-size: 11px !important;
+    }
+    .address- h6,.address- p,.address h6,.address,.phone{
+        font-size: 9px !important;
+        line-height: 15px !important;
+        
+    }
+    .address,.phone{
+
+        margin-left: 30px !important;
+    }
+    .phone1{
+        margin-left: 11px;
+    }
+    
+}
 
 /*---------------------------------facult and staff----------------*/
 .children-link{
@@ -920,16 +1103,13 @@ h6 a{
     
 }
 
-@media (max-width:480px) {
+@media (max-width:768px) {
     .site-nav{
         display: none;
 
     }
-    
 }
-@media (max) {
-    
-}
+
 
 .children-link{
     box-shadow: 0px 14px 18px 7px;
@@ -972,9 +1152,7 @@ h6 a{
         line-height: 21px !important;
         transition: all 0.2s !important;
         font-size: 15px !important;
-    }
-    
-    
+    }   
 }
 
 .custome-fucult-text{
@@ -983,6 +1161,7 @@ h6 a{
 .teacher-one-third,.item{
     padding: 18px 0;
 }
+
 .entry-title{
     margin: 0;
     margin-bottom: 0;
@@ -1020,15 +1199,41 @@ h6 a{
     margin-bottom: 10px;
 }
 .vision{
-    margin-left: -60px;
-}
-.heading-wrapper-paragraph{
-    padding-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 30px;
+    margin-left: -50px;
 }
 
+
 /*------------------------tabs----------------*/
+@media (min-width:1200px) {
+    .nav-tabs-wrapper{
+        margin-left: 100px !important;
+        margin-top: 50px;
+    }
+    
+}
+@media (min-width:992px) {
+    .nav-tabs-wrapper{
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    
+}
+@media (min-width:768px) {
+    .nav-tabs-wrapper{
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    
+    
+}
+@media (min-width:600px) {
+    .nav-tabs-wrapper{
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+    
+    
+}
 .nav-link1{
     display: block;
     background-color: #e6be1e;
@@ -1081,7 +1286,7 @@ h6 a{
     border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0
 }
 
-card-footer,
+.card-footer,
 .card-header {
     background-color: transparent;
     border-color: rgba(160, 175, 185, .15);
@@ -1093,6 +1298,197 @@ card-footer,
 }
 
 /*----------------primaryschool-----------*/
+
+@media (max-width:480px) {
+    .col-sm-6{
+        flex: none;
+        max-width: none;
+    }
+    .heading-wrapper-paragraph,.teacher-one-third,.facult-heading{
+        margin-right: 15px !important;
+        margin-left: 0px !important;
+    }
+}
+
+@media (max-width:600px) {
+    .col-sm-6,.container{
+        flex: none;
+        max-width: none;
+        
+    }
+    .ok00{
+        margin-left: 50px;
+        margin-right: -110px;
+    }
+    .heading-wrapper-paragraph p,.teacher-one-third{
+        margin-right: -100px !important;
+        margin-left: 50px !important;
+    }
+    .custome-fucult-text{
+        margin-left: 50px;
+        margin-right: -110px;
+
+    }
+    .heading-wrapper{
+        margin-left: 38px !important;
+    }
+    h1.library001{
+        margin-left: 45px;
+    }
+    .content-element{
+        margin-left: 50px;
+        margin-right: -120px;
+    }
+}
+@media (max-width:575px) {
+    .col-sm-6,.container{
+        flex: none;
+        max-width: none;
+        
+    }
+    .heading-wrapper-paragraph p,.teacher-one-third{
+        margin-right: 40px !important;
+        margin-left: 50px !important;
+    }
+    .custome-fucult-text{
+        margin-left: 50px;
+        margin-right:40px;
+
+    }
+    .content-element{
+        margin-left: 50px;
+        margin-right: 40px;
+    }
+    .heading-wrapper{
+        margin-left: 38px !important;
+    }
+    h1.library001{
+        margin-left: 45px;
+    }
+}
+@media (min-width:600px) {
+    .col-sm-6,.container{
+        flex: none;
+        max-width: none;
+        
+    }
+    .ok00{
+        margin-left: 50px;
+        margin-right: -120px;
+    }
+    .heading-wrapper-paragraph p,.teacher-one-third{
+        margin-right: -120px !important;
+        margin-left: 50px !important;
+    }
+    .custome-fucult-text{
+        margin-left: 50px;
+        margin-right: -120px;
+
+    }
+    .heading-wrapper{
+        margin-left: 38px !important;
+    }
+    h1.library001{
+        margin-left: 45px;
+    }
+    .content-element{
+        margin-left: 50px;
+        margin-right: -120px;
+    }
+}
+@media (min-width:768px) {
+    .col-sm-6{
+        flex: 0 0 50%;
+        
+        
+    }
+    .heading-wrapper-paragraph p,.teacher-one-third{
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+    .custome-fucult-text{
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+    
+    .heading-wrapper{
+        margin-left: 0px !important;
+    }
+    h1.library001{
+        margin-left: 0px;
+    }
+}
+@media (min-width:992px) {
+    .col-sm-6{
+        flex: 0 0 50%;
+        
+    }
+    .heading-wrapper-paragraph p{
+        margin-right: -70px !important;
+        margin-left: 50px !important;
+    }
+    .teacher-one-third{
+        margin-left: 50px !important;
+    }
+    .custome-fucult-text{
+        margin-left: 50px;
+        margin-right: 0px;
+    }
+    .heading-wrapper{
+        margin-left: 50px !important;
+    }
+    h1.library001{
+        margin-left: 50px;
+    }
+}
+@media (min-width:992px) {
+    .site-nav{
+        margin-right: 50px !important;
+        
+    }
+}
+@media (min-width:1200px) {
+    .col-sm-6{
+        flex: 0 0 50%;
+        
+    }
+    .heading-wrapper-paragraph p{
+        margin-right: -90px !important;
+        margin-left: 110px !important;
+    }
+    .heading-wrapper-paragraph00 p{
+        margin-left: 120px !important;
+        margin-right: 0px;
+    }
+    .teacher-one-third{
+        margin-left: 110px !important;
+    }
+    .custome-fucult-text{
+        margin-left: 110px;
+        margin-right: 0px;
+    }
+    .heading-wrapper{
+        margin-left: 100px !important;
+    }
+    h1.library001{
+        margin-left: 110px;
+    }
+    .site-nav{
+        margin-right: 90px !important;
+        
+    }
+    .content-element{
+        margin-left: 200px !important;
+        margin-right: 0px !important;
+    }
+    .ok00{
+        margin-left: 90px;
+    }
+}
+
+
+
 .content-element{
     margin-bottom: 35px;
 }
@@ -1109,48 +1505,6 @@ blockquote{
     background-color: #f2f2f2;
     font-weight: normal;
 }
-/*-----------------------------academics-----------------*/
-.individual{
-    padding-left: 75px;
-    margin-top: -50px;
-    margin-bottom: 60px;
-    
-}
-.welcome-content00{
-    margin-top: 50px;
-    margin-bottom: -80px;
-
-}
-.welcome-content000{
-    margin-top: 50px;
-    margin-bottom: -80px;
-}
-.welcome-content0000{
-    margin-top: 50px;
-    margin-bottom: 0px;
-}
-.theme-icon00{
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 5px;
-    padding-left: 5px;
-    
-}
-.welcome-content001{
-    margin-top: -30px;
-    margin-bottom: 0px;
-
-}
-.welcome-content0001{
-    margin-top: -30px;
-    margin-bottom: 0px;
-}
-.welcome-content00001{
-    margin-top: -30px;
-    margin-bottom: 0px;
-}
-/*-------------------------------------transport------------------*/
-
 
 /*-------------------------------welcome page contact---------------*/
 
@@ -1239,7 +1593,7 @@ input[type="submit"]{
 }
 @media (max-width:480px){
     .custome-haead-title{
-        padding: 6rem 0rem;
+        padding: 6rem 0rem !important;
         
     }  
 }
